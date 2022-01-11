@@ -9,16 +9,15 @@
 
 .container h1 {
     color: crimson;
+    background-color: sandybrown;
 
 }
 
 .container ul {
     list-style: none;
-    
-    
+    background-color: inherit;
+
 }
-
-
 
 li {
     padding: 15px;
@@ -27,8 +26,31 @@ li {
 li a{
     text-decoration: none;
     color: brown;
-    
 }
 
+/* Lasagna page */
+
+h1 , h3 {
+    background-color: red;
+    text-align: center;
+}
+
+p {
+    background-color: bisque;
+    word-spacing: 3px;
+}
+
+ul, ol {
+    background-color: bisque;
+}
+
+.lasagna-img {
+    background-color: bisque;
+    text-align: center;
+}
+
+#link, .class-link {
+    background-color: red;
+}
 
 
